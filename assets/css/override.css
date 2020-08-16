@@ -1,0 +1,19 @@
+.initial-page-buttons-container {
+	display: flex;
+	margin: auto;
+	justify-content: center;
+}
+
+.content h1 {
+    max-width: 80%;
+    margin: 0 auto 2rem auto;
+}
+
+.initial-page-buttons-container ul {
+    margin: 1rem;
+}
+
+.first-page-button {
+	/*margin: auto;*/
+	margin: 0 0.5rem 0 0.5rem;
+}

@@ -2760,12 +2760,12 @@ input, select, textarea {
 		display: flex;
 		cursor: default;
 		list-style: none;
-		margin-left: -1rem;
+		/*margin-left: -1rem;*/
 		padding-left: 0;
 	}
 
 		ul.actions li {
-			padding: 0 0 0 1rem;
+			/*padding: 0 0 0 1rem;*/
 			vertical-align: middle;
 		}
 
@@ -2779,7 +2779,7 @@ input, select, textarea {
 		}
 
 			ul.actions.special li:first-child {
-				padding-left: 0;
+				/*padding-left: 0;*/
 			}
 
 		ul.actions.stacked {
@@ -2787,11 +2787,11 @@ input, select, textarea {
 			-webkit-flex-direction: column;
 			-ms-flex-direction: column;
 			flex-direction: column;
-			margin-left: 0;
+			/*margin-left: 0;*/
 		}
 
 			ul.actions.stacked li {
-				padding: 1.3rem 0 0 0;
+				/*padding: 1.3rem 0 0 0;*/
 			}
 
 				ul.actions.stacked li:first-child {
@@ -3472,8 +3472,8 @@ input, select, textarea {
 			-webkit-flex-shrink: 1;
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
-			width: 50%;
-			max-width: 48rem;
+			/*width: 50%;*/
+			/*max-width: 48rem;*/
 			margin: 0 auto;
 		}
 
@@ -4428,6 +4428,10 @@ input, select, textarea {
 
 	.banner.style4.invert.android .image:after {
 		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Erect %7Bfill: transparent%3B stroke: white%3B stroke-width: 1px%3B %7D%3C/style%3E%3Crect rx='4' ry='4' x='6' y='4' width='52' height='24' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E");
+	}
+
+	.banner h1 {
+		text-align: center;
 	}
 
 /* Spotlight (transitions) */
@@ -8601,3 +8605,6 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+
+
+			

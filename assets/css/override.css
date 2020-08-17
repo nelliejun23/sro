@@ -9,8 +9,17 @@
     margin: 0 auto 2rem auto;
 }
 
+.inner {
+	margin: 0 auto 2rem auto !important;
+}
+
 .initial-page-buttons-container ul {
     margin: 1rem;
+}
+
+.gallery.style1 .button:hover {
+	box-shadow: inset 0 0 0 1px #000000;
+	color: #000000 !important;
 }
 
 .first-page-button {
@@ -26,4 +35,8 @@ img {
 
 .subsubheader {
 	font-size: 3.5rem;
+}
+
+body {
+	background-color: #FAF2FF;
 }

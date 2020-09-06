@@ -12,12 +12,23 @@
 
 }
 
+.first-section {
+	box-shadow: none !important;
+}
+
 .initial-page-buttons-container {
 	display: flex;
 	margin: auto;
 	justify-content: center;
-	margin-top: 7rem;
 	margin-bottom: 2rem;
+}
+
+.initial-page-buttons-container a {
+	font-size: 1rem;
+}
+
+.initial-page-buttons-container ul {
+    margin: 1rem;
 }
 
 .first-content {
@@ -59,9 +70,7 @@
 	border-bottom: 2px solid black;
 }
 
-.initial-page-buttons-container ul {
-    margin: 1rem;
-}
+
 
 .gallery.style1 .button:hover {
 	box-shadow: inset 0 0 0 1px #000000;
@@ -96,7 +105,9 @@ body {
 @media screen and (max-width: 768px) {
 	.first-content  {
 		height: 15rem;
+		/*display: block;*/
 	}
+
 }
 
 

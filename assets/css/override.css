@@ -3,12 +3,13 @@
 	margin-left: 1rem;
 	margin-top: 3rem;
 	margin-bottom: 0.3rem;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 
 }
 
 .purple {
 	margin-top: 0;
-	border: 3px solid purple;
+	border: 2.5px solid #4B0082;
 
 }
 
@@ -51,6 +52,7 @@
 #banner-left {
     margin-left: 2rem;
     margin-right: 1rem;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 #banner-right {
@@ -104,8 +106,20 @@ body {
 
 @media screen and (max-width: 768px) {
 	.first-content  {
-		height: 15rem;
-		/*display: block;*/
+		/*height: 15rem;*/
+		display: block;
+	}
+
+	.first-section {
+		display: block;
+	}
+
+	#banner-right {
+		margin: 0 0 0 0;
+	}
+
+	.initial-page-buttons-container a {
+		font-size: 0.5rem;
 	}
 
 }
